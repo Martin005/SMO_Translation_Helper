@@ -620,13 +620,15 @@ namespace SMO_Translation_Helper
 					bw.Write(paddingChar);
 		}
 
-		public string ExportXLIFF(DirectoryInfo directory, string filename, bool overwrite = true)
+		public string ExportXLIFF(string filePath, bool overwrite = true)
 		{
 			string result = "Successfully exported to XLIFF.";
 
+			string fileName = Path.GetFileNameWithoutExtension(filePath);
+
 			try
 			{
-				if (!File.Exists(filename) || (File.Exists(filename) && overwrite))
+				if (!File.Exists(filePath) || (File.Exists(filePath) && overwrite))
 				{
 					if (HasLabels)
 					{
@@ -649,7 +651,7 @@ namespace SMO_Translation_Helper
 						xmlDocument.AppendChild(xliff);
 
 						XmlElement xliffFile = xmlDocument.CreateElement("file", xliffNameSpace);
-						xliffFile.SetAttribute("id", filename);
+						xliffFile.SetAttribute("id", fileName);
 						xliff.AppendChild(xliffFile);
 						
 						foreach (Label lbl in LBL1.Labels)
@@ -666,9 +668,8 @@ namespace SMO_Translation_Helper
 							xliffSource.InnerText = QA.CleanBeforeExport(lbl.String.Value);
 							xliffSegment.AppendChild(xliffSource);
 						}
-
-						string filepath = string.Format("{0}{1}.{2}", directory, filename, "xliff");
-						StreamWriter stream = new StreamWriter(filepath, false, FileEncoding);
+						
+						StreamWriter stream = new StreamWriter(filePath, false, FileEncoding);
 						xmlDocument.Save(XmlWriter.Create(stream, xmlSettings));
 						stream.Close();
 					}
@@ -679,7 +680,7 @@ namespace SMO_Translation_Helper
 				}
 				else
 				{
-					result = filename + " already exists and overwrite was set to false.";
+					result = fileName + " already exists and overwrite was set to false.";
 				}
 			}
 			catch (Exception ex)
