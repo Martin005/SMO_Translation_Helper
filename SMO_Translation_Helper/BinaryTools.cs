@@ -20,267 +20,270 @@ namespace SMO_Translation_Helper
 			#region BUTTONS
 			// A Button
 			{ new byte[] { 14, 0, 6, 0, 2, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 65, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 65, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 65, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 65, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 65, 0 },
-						"_Button_A_" },
+						"{Button_A}" },
 			// B Button
 			{ new byte[] { 14, 0, 6, 0, 3, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 66, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 66, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 66, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 66, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 66, 0 },
-						"_Button_B_" },
+						"{Button_B}" },
 			// X Button
 			{ new byte[] { 14, 0, 6, 0, 4, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 88, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 88, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 88, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 88, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 88, 0 },
-						"_Button_X_" },
+						"{Button_X}" },
 			// Y Button
 			{ new byte[] { 14, 0, 6, 0, 5, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 89, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 89, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 89, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 89, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 89, 0 },
-						"_Button_Y_" },
+						"{Button_Y}" },
 			
 			// L Button
 			{ new byte[] { 14, 0, 6, 0, 6, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 76, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 76, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 76, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 76, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 76, 0 },
-						"_Button_L_" },
+						"{Button_L}" },
 			// R Button
 			{ new byte[] { 14, 0, 6, 0, 7, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 82, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 82, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 82, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 82, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 82, 0 },
-						"_Button_R_" },
+						"{Button_R}" },
 			// ZL Button
 			{ new byte[] { 14, 0, 6, 0, 8, 0, 146, 0, 24, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 76, 0, 32, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 76, 0, 30, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 76, 0, 24, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 76, 0, 26, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 76, 0 },
-						"_Button_ZL_" },
+						"{Button_ZL}" },
 			// ZR Button
 			{ new byte[] { 14, 0, 6, 0, 9, 0, 146, 0, 24, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 82, 0, 32, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 82, 0, 30, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 82, 0, 24, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 82, 0, 26, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 90, 0, 82, 0 },
-						"_Button_ZR_" },
+						"{Button_ZR}" },
 			
 			// HOME Button
 			{ new byte[] { 14, 0, 9, 0, 21, 0, 4, 0, 0, 0, 244, 224 },
-						"_Button_Home_" },
+						"{Button_Home}" },
 			// Capture Button
 			{ new byte[] { 14, 0, 9, 0, 22, 0, 4, 0, 0, 0, 245, 224 },
-						"_Button_Screenshot_" },
+						"{Button_Screenshot}" },
 			// + Button
 			{ new byte[] { 14, 0, 6, 0, 29, 0, 70, 0, 20, 0, 77, 0, 101, 0, 110, 0, 117, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 22, 0, 77, 0, 101, 0, 110, 0, 117, 0, 80, 0, 108, 0, 97, 0, 121, 0, 101, 0, 114, 0, 76, 0, 22, 0, 77, 0, 101, 0, 110, 0, 117, 0, 80, 0, 108, 0, 97, 0, 121, 0, 101, 0, 114, 0, 82, 0 },
-						"_Button_Plus_" },
+						"{Button_Plus}" },
 			// - Button
 			{ new byte[] { 14, 0, 6, 0, 30, 0, 64, 0, 18, 0, 77, 0, 97, 0, 112, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 20, 0, 77, 0, 97, 0, 112, 0, 80, 0, 108, 0, 97, 0, 121, 0, 101, 0, 114, 0, 76, 0, 20, 0, 77, 0, 97, 0, 112, 0, 80, 0, 108, 0, 97, 0, 121, 0, 101, 0, 114, 0, 82, 0 },
-						"_Button_Minus_" },
+						"{Button_Minus}" },
 			// + Button (Second duplicate icon)
 			{ new byte[] { 14, 0, 6, 0, 11, 0, 166, 0, 28, 0, 68, 0, 117, 0, 97, 0, 108, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 80, 0, 108, 0, 117, 0, 115, 0, 36, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 80, 0, 108, 0, 117, 0, 115, 0, 34, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 80, 0, 108, 0, 117, 0, 115, 0, 28, 0, 76, 0, 101, 0, 102, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 80, 0, 108, 0, 117, 0, 115, 0, 30, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 80, 0, 108, 0, 117, 0, 115, 0 },
-						"_Button_Plus_Duplicate_" },
+						"{Button_Plus_Duplicate}" },
 			#endregion
 
 			#region DPAD
 			// Directional Pad - Left
 			{ new byte[] { 14, 0, 6, 0, 14, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 75, 0, 101, 0, 121, 0, 76, 0, 101, 0, 102, 0, 116, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 75, 0, 101, 0, 121, 0, 76, 0, 101, 0, 102, 0, 116, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 75, 0, 101, 0, 121, 0, 76, 0, 101, 0, 102, 0, 116, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 75, 0, 101, 0, 121, 0, 76, 0, 101, 0, 102, 0, 116, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 75, 0, 101, 0, 121, 0, 76, 0, 101, 0, 102, 0, 116, 0 },
-						"_Dpad_Left_" },
+						"{Dpad_Left}" },
 			// Directional Pad - Right
 			{ new byte[] { 14, 0, 6, 0, 15, 0, 146, 0, 24, 0, 68, 0, 117, 0, 97, 0, 108, 0, 75, 0, 101, 0, 121, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 32, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 75, 0, 101, 0, 121, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 30, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 75, 0, 101, 0, 121, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 24, 0, 76, 0, 101, 0, 102, 0, 116, 0, 75, 0, 101, 0, 121, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 26, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 75, 0, 101, 0, 121, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0 },
-						"_Dpad_Right_" },
+						"{Dpad_Right}" },
 			// Directional Pad - Right (used only for amiibo descriptions)
 			{ new byte[] { 14, 0, 9, 0, 17, 0, 4, 0, 0, 0, 238, 224 },
-						"_Dpad_Right_Amiibo_" },
+						"{Dpad_Right_Amiibo}" },
 			#endregion
 
 			#region STICKS
 			// Left Stick
 			{ new byte[] { 14, 0, 6, 0, 16, 0, 126, 0, 20, 0, 68, 0, 117, 0, 97, 0, 108, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 28, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 26, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 20, 0, 76, 0, 101, 0, 102, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 22, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0 },
-						"_Stick_Left_" },
+						"{Stick_Left}" },
 			// Right Stick
 			{ new byte[] { 14, 0, 6, 0, 17, 0, 126, 0, 20, 0, 68, 0, 117, 0, 97, 0, 108, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 82, 0, 28, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 82, 0, 26, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 82, 0, 20, 0, 76, 0, 101, 0, 102, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 82, 0, 22, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 82, 0 },
-						"_Stick_Right_" },			
+						"{Stick_Right}" },			
 			// Right Stick - Push
 			{ new byte[] { 14, 0, 6, 0, 18, 0, 166, 0, 28, 0, 68, 0, 117, 0, 97, 0, 108, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 80, 0, 117, 0, 115, 0, 104, 0, 82, 0, 36, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 80, 0, 117, 0, 115, 0, 104, 0, 82, 0, 34, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 80, 0, 117, 0, 115, 0, 104, 0, 82, 0, 28, 0, 76, 0, 101, 0, 102, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 80, 0, 117, 0, 115, 0, 104, 0, 82, 0, 30, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 80, 0, 117, 0, 115, 0, 104, 0, 82, 0 },
-						"_Stick_Right_Push_" },
+						"{Stick_Right_Push}" },
 			// Left Stick - Up and Down
 			{ new byte[] { 14, 0, 6, 0, 19, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 85, 0, 68, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 85, 0, 68, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 85, 0, 68, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 85, 0, 68, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 85, 0, 68, 0 },
-						"_Stick_Left_UpDown_" },
+						"{Stick_Left_UpDown}" },
 			// Right Stick - Left and Right
 			{ new byte[] { 14, 0, 6, 0, 20, 0, 136, 0, 22, 0, 68, 0, 117, 0, 97, 0, 108, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 82, 0, 30, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 82, 0, 28, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 82, 0, 22, 0, 76, 0, 101, 0, 102, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 82, 0, 24, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 83, 0, 116, 0, 105, 0, 99, 0, 107, 0, 76, 0, 82, 0 },
-						"_Stick_Right_LeftRight_" },
+						"{Stick_Right_LeftRight}" },
 			#endregion
 
 			#region ICONS
 			// Icon - Arrow
 			{ new byte[] { 14, 0, 9, 0, 41, 0, 4, 0, 0, 0, 70, 225 },
-						"_Icon_Arrow_" },
+						"{Icon_Arrow}" },
 			// Icon - Album
 			{ new byte[] { 14, 0, 9, 0, 42, 0, 4, 0, 0, 0, 52, 225 },
-						"_Icon_Album_" },
+						"{Icon_Album}" },
 
 			// Icon - Coin
 			{ new byte[] { 14, 0, 8, 0, 0, 0, 4, 0, 6, 0, 64, 0 },
-						"_Icon_Coin_" },
+						"{Icon_Coin}" },
 			// Icon - Globe
 			{ new byte[] { 14, 0, 8, 0, 1, 0, 4, 0, 6, 0, 65, 0 },
-						"_Icon_Globe_" },
+						"{Icon_Globe}" },
 			// Icon - Checkpoint Flag
 			{ new byte[] { 14, 0, 8, 0, 2, 0, 4, 0, 6, 0, 66, 0 },
-						"_Icon_CheckpointFlag_" },
+						"{Icon_CheckpointFlag}" },
 			// Icon - Bowser
 			{ new byte[] { 14, 0, 8, 0, 3, 0, 4, 0, 6, 0, 67, 0 },
-						"_Icon_Bowser_" },
+						"{Icon_Bowser}" },
 			// Icon - Princess Peach
 			{ new byte[] { 14, 0, 8, 0, 4, 0, 4, 0, 6, 0, 68, 0 },
-						"_Icon_PrincessPeach_" },
+						"{Icon_PrincessPeach}" },
 			// Icon - Tiara
 			{ new byte[] { 14, 0, 8, 0, 5, 0, 4, 0, 6, 0, 69, 0 },
-						"_Icon_Tiara_" },
+						"{Icon_Tiara}" },
 			// Icon - Broodals - Rango
 			{ new byte[] { 14, 0, 8, 0, 6, 0, 4, 0, 6, 0, 70, 0 },
-						"_Icon_Broodals_Rango_" },
+						"{Icon_Broodals_Rango}" },
 			// Icon - Broodals - Spewart
 			{ new byte[] { 14, 0, 8, 0, 7, 0, 4, 0, 6, 0, 71, 0 },
-						"_Icon_Broodals_Spewart_" },
+						"{Icon_Broodals_Spewart}" },
 			// Icon - Broodals - Topper
 			{ new byte[] { 14, 0, 8, 0, 8, 0, 4, 0, 6, 0, 72, 0 },
-						"_Icon_Broodals_Topper_" },
+						"{Icon_Broodals_Topper}" },
 			// Icon - Broodals - Hariet
 			{ new byte[] { 14, 0, 8, 0, 9, 0, 4, 0, 6, 0, 73, 0 },
-						"_Icon_Broodals_Hariet_" },
+						"{Icon_Broodals_Hariet}" },
 			// Icon - The Oddysey (Mario's airship)
 			{ new byte[] { 14, 0, 8, 0, 10, 0, 4, 0, 6, 0, 74, 0 },
-						"_Icon_TheOddysey_" },
+						"{Icon_TheOddysey}" },
 			// Icon - Frog
 			{ new byte[] { 14, 0, 8, 0, 11, 0, 4, 0, 6, 0, 75, 0 },
-						"_Icon_Frog_" },
+						"{Icon_Frog}" },
 			// Icon - Mario with Cappy
 			{ new byte[] { 14, 0, 8, 0, 12, 0, 4, 0, 6, 0, 76, 0 },
-						"_Icon_MarioWithCappy_" },
+						"{Icon_MarioWithCappy}" },
 			// Icon - Cappy
 			{ new byte[] { 14, 0, 8, 0, 13, 0, 4, 0, 6, 0, 77, 0 },
-						"_Icon_Cappy_" },
+						"{Icon_Cappy}" },
 			// Icon - Mario
 			{ new byte[] { 14, 0, 8, 0, 14, 0, 4, 0, 6, 0, 78, 0 },
-						"_Icon_Mario_" },
+						"{Icon_Mario}" },
 			// Icon - Mayor Pauline
 			{ new byte[] { 14, 0, 8, 0, 15, 0, 4, 0, 6, 0, 79, 0 },
-						"_Icon_MayorPauline_" },
+						"{Icon_MayorPauline}" },
 
 			// Icon - Regional Coin - Cap Kingdom
 			{ new byte[] { 14, 0, 8, 0, 16, 0, 4, 0, 6, 0, 80, 0 },
-						"_Icon_RegionalCoin_CapKingdom_" },
+						"{Icon_RegionalCoin_CapKingdom}" },
 			// Icon - Regional Coin - Cascade Kingdom
 			{ new byte[] { 14, 0, 8, 0, 17, 0, 4, 0, 6, 0, 81, 0 },
-						"_Icon_RegionalCoin_CascadeKingdom_" },
+						"{Icon_RegionalCoin_CascadeKingdom}" },
 			// Icon - Regional Coin - Sand Kingdom
 			{ new byte[] { 14, 0, 8, 0, 18, 0, 4, 0, 6, 0, 82, 0 },
-						"_Icon_RegionalCoin_SandKingdom_" },
+						"{Icon_RegionalCoin_SandKingdom}" },
 			// Icon - Regional Coin - Wooded Kingdom
 			{ new byte[] { 14, 0, 8, 0, 19, 0, 4, 0, 6, 0, 83, 0 },
-						"_Icon_RegionalCoin_WoodedKingdom_" },
+						"{Icon_RegionalCoin_WoodedKingdom}" },
 			// Icon - Regional Coin - Lake Kingdom
 			{ new byte[] { 14, 0, 8, 0, 20, 0, 4, 0, 6, 0, 84, 0 },
-						"_Icon_RegionalCoin_LakeKingdom_" },
+						"{Icon_RegionalCoin_LakeKingdom}" },
 			// Icon - Regional Coin - Lost Kingdom
 			{ new byte[] { 14, 0, 8, 0, 21, 0, 4, 0, 6, 0, 85, 0 },
-						"_Icon_RegionalCoin_LostKingdom_" },
+						"{Icon_RegionalCoin_LostKingdom}" },
 			// Icon - Regional Coin - Metro Kingdom
 			{ new byte[] { 14, 0, 8, 0, 22, 0, 4, 0, 6, 0, 86, 0 },
-						"_Icon_RegionalCoin_MetroKingdom_" },
+						"{Icon_RegionalCoin_MetroKingdom}" },
 			// Icon - Regional Coin - Seaside Kingdom
 			{ new byte[] { 14, 0, 8, 0, 23, 0, 4, 0, 6, 0, 87, 0 },
-						"_Icon_RegionalCoin_SeasideKingdom_" },
+						"{Icon_RegionalCoin_SeasideKingdom}" },
 			// Icon - Regional Coin - Snow Kingdom
 			{ new byte[] { 14, 0, 8, 0, 24, 0, 4, 0, 6, 0, 88, 0 },
-						"_Icon_RegionalCoin_SnowKingdom_" },
+						"{Icon_RegionalCoin_SnowKingdom}" },
 			// Icon - Regional Coin - Luncheon Kingdom
 			{ new byte[] { 14, 0, 8, 0, 25, 0, 4, 0, 6, 0, 89, 0 },
-						"_Icon_RegionalCoin_LuncheonKingdom_" },
+						"{Icon_RegionalCoin_LuncheonKingdom}" },
 			// Icon - Regional Coin - Bowser's Kingdom
 			{ new byte[] { 14, 0, 8, 0, 26, 0, 4, 0, 6, 0, 90, 0 },
-						"_Icon_RegionalCoin_BowsersKingdom_" },
+						"{Icon_RegionalCoin_BowsersKingdom}" },
 			// Icon - Regional Coin - Moon Kingdom
 			{ new byte[] { 14, 0, 8, 0, 27, 0, 4, 0, 6, 0, 91, 0 },
-						"_Icon_RegionalCoin_MoonKingdom_" },
+						"{Icon_RegionalCoin_MoonKingdom}" },
 			// Icon - Regional Coin - Mushroom Kingdom
 			{ new byte[] { 14, 0, 8, 0, 28, 0, 4, 0, 6, 0, 92, 0 },
-						"_Icon_RegionalCoin_MushroomKingdom_" },
+						"{Icon_RegionalCoin_MushroomKingdom}" },
 
 			// Icon - Binding Band (Wedding Ring)
 			{ new byte[] { 14, 0, 8, 0, 29, 0, 4, 0, 6, 0, 96, 0 },
-						"_Icon_Binding_Band_" },
+						"{Icon_Binding_Band}" },
 			// Icon - Soirée Bouquet
 			{ new byte[] { 14, 0, 8, 0, 30, 0, 4, 0, 6, 0, 97, 0 },
-						"_Icon_Soiree_Bouquet_" },
+						"{Icon_Soiree_Bouquet}" },
 			// Icon - Lochlady Dress
 			{ new byte[] { 14, 0, 8, 0, 31, 0, 4, 0, 6, 0, 98, 0 },
-						"_Icon_Lochlady_Dress_" },
+						"{Icon_Lochlady_Dress}" },
 			// Icon - Sparkle Water
 			{ new byte[] { 14, 0, 8, 0, 32, 0, 4, 0, 6, 0, 99, 0 },
-						"_Icon_Sparkle_Water_" },
+						"{Icon_Sparkle_Water}" },
 			// Icon - Frost-Frosted Cake
 			{ new byte[] { 14, 0, 8, 0, 33, 0, 4, 0, 6, 0, 100, 0 },
-						"_Icon_FrostFrosted_Cake_" },
+						"{Icon_FrostFrosted_Cake}" },
 			// Icon - Stupendous Stew
 			{ new byte[] { 14, 0, 8, 0, 34, 0, 4, 0, 6, 0, 101, 0 },
-						"_Icon_Stupendous_Stew_" },
+						"{Icon_Stupendous_Stew}" },
 			
 			// Icon - Power Moon - Yellow
 			{ new byte[] { 14, 0, 8, 0, 35, 0, 4, 0, 6, 0, 112, 0 },
-						"_Icon_PowerMoon_Yellow_" },
+						"{Icon_PowerMoon_Yellow}" },
 			// Icon - Power Moon - Brown
 			{ new byte[] { 14, 0, 8, 0, 36, 0, 4, 0, 6, 0, 113, 0 },
-						"_Icon_PowerMoon_Brown_" },
+						"{Icon_PowerMoon_Brown}" },
 			// Icon - Power Moon - Blue
 			{ new byte[] { 14, 0, 8, 0, 37, 0, 4, 0, 6, 0, 114, 0 },
-						"_Icon_PowerMoon_Blue_" },
+						"{Icon_PowerMoon_Blue}" },
 			// Icon - Power Moon - Red
 			{ new byte[] { 14, 0, 8, 0, 38, 0, 4, 0, 6, 0, 115, 0 },
-						"_Icon_PowerMoon_Red_" },
+						"{Icon_PowerMoon_Red}" },
 			// Icon - Power Moon - Orange
 			{ new byte[] { 14, 0, 8, 0, 39, 0, 4, 0, 6, 0, 116, 0 },
-						"_Icon_PowerMoon_Orange_" },
+						"{Icon_PowerMoon_Orange}" },
 			// Icon - Power Moon - Green
 			{ new byte[] { 14, 0, 8, 0, 40, 0, 4, 0, 6, 0, 117, 0 },
-						"_Icon_PowerMoon_Green_" },
+						"{Icon_PowerMoon_Green}" },
 			// Icon - Power Moon - Cyan
 			{ new byte[] { 14, 0, 8, 0, 41, 0, 4, 0, 6, 0, 118, 0 },
-						"_Icon_PowerMoon_Cyan_" },
+						"{Icon_PowerMoon_Cyan}" },
 			// Icon - Power Moon - Pink
 			{ new byte[] { 14, 0, 8, 0, 42, 0, 4, 0, 6, 0, 119, 0 },
-						"_Icon_PowerMoon_Pink_" },
+						"{Icon_PowerMoon_Pink}" },
 			// Icon - Power Moon - Purple
 			{ new byte[] { 14, 0, 8, 0, 43, 0, 4, 0, 6, 0, 120, 0 },
-						"_Icon_PowerMoon_Purple_" },
+						"{Icon_PowerMoon_Purple}" },
 			// Icon - Power Moon - White
 			{ new byte[] { 14, 0, 8, 0, 44, 0, 4, 0, 6, 0, 121, 0 },
-						"_Icon_PowerMoon_White_" },
+						"{Icon_PowerMoon_White}" },
 			// Icon - Power Moon - All
 			{ new byte[] { 14, 0, 8, 0, 45, 0, 4, 0, 6, 0, 122, 0 },
-						"_Icon_PowerMoon_All_" },
+						"{Icon_PowerMoon_All}" },
 			// Icon - Power Moon - Empty
 			{ new byte[] { 14, 0, 8, 0, 46, 0, 4, 0, 6, 0, 123, 0 },
-						"_Icon_PowerMoon_Empty_" },
+						"{Icon_PowerMoon_Empty}" },
 			
 			// Icon - Life-Up Heart
 			{ new byte[] { 14, 0, 8, 0, 49, 0, 4, 0, 6, 0, 55, 0 },
-						"_Icon_LifeUpHeart_" },
+						"{Icon_LifeUpHeart}" },
 			// Icon - Luigi
 			{ new byte[] { 14, 0, 8, 0, 51, 0, 4, 0, 6, 0, 57, 0 },
-						"_Icon_Luigi_" },
+						"{Icon_Luigi}" },
 			// Icon - Pointing Arrow for finding Balloon
 			{ new byte[] { 14, 0, 8, 0, 52, 0, 4, 0, 6, 0, 58, 0 },
-						"_Icon_PointingArrow_" },
+						"{Icon_PointingArrow}" },
 
 			// Icon - Power Moon
 			{ new byte[] { 14, 0, 6, 0, 0, 0, 0, 0 },
-						"_Icon_PowerMoon_" },
+						"{Icon_PowerMoon}" },
 			// Icon - Regional Coin (Purple Coin)
 			{ new byte[] { 14, 0, 6, 0, 1, 0, 0, 0},
-						"_Icon_RegionalCoin_" },
+						"{Icon_RegionalCoin}" },
 			#endregion
 			
 			#region SPECIAL TAGS
 			// Tag - Start of yellow color
 			{ new byte[] { 14, 0, 0, 0, 3, 0, 2, 0, 1, 0 },
-						"_BEGIN_YELLOW_COLOR_" },
+						"{BEGIN_YELLOW_COLOR}" },
 			// Tag - End of yellow color
 			{ new byte[] { 14, 0, 0, 0, 3, 0, 2, 0, 255, 255 },
-						"_END_YELLOW_COLOR_" },
+						"{END_YELLOW_COLOR}" },
 			#endregion
 
 			#region VARIABLES
 			// Variable - Coin - Reward - After finding Balloon
 			{ new byte[] { 14, 0, 2, 0, 2, 0, 26, 0, 4, 0, 0, 0, 20, 0, 67, 0, 111, 0, 105, 0, 110, 0, 82, 0, 101, 0, 119, 0, 97, 0, 114, 0, 100, 0 },
-						"_Icon_Coin_Reward_FindingBalloon_" },
+						"{Variable_Coin_Reward_FindingBalloon}" },
 			// Variable - Coin - Paying for finding Balloon
 			{ new byte[] { 14, 0, 2, 0, 2, 0, 28, 0, 3, 0, 0, 0, 22, 0, 67, 0, 111, 0, 105, 0, 110, 0, 80, 0, 97, 0, 121, 0, 70, 0, 105, 0, 110, 0, 100, 0 },
-						"_Icon_Coin_Paying_FindingBalloon_" },
-			// Variable - Coin - Paying for finding Balloon - Retry &#xE;&#x2;&#x2;&amp;&#x3;\0 CoinPayFindRetry
+						"{Variable_Coin_Paying_FindingBalloon}" },
+			// Variable - Coin - Paying for finding Balloon - Retry
 			{ new byte[] { 14, 0, 2, 0, 2, 0, 38, 0, 3, 0, 0, 0, 32, 0, 67, 0, 111, 0, 105, 0, 110, 0, 80, 0, 97, 0, 121, 0, 70, 0, 105, 0, 110, 0, 100, 0, 82, 0, 101, 0, 116, 0, 114, 0, 121, 0 },
-						"_Icon_Coin_Paying_FindingBalloon_Retry_" },
+						"{Variable_Coin_Paying_FindingBalloon_Retry}" },
+			// Variable - Coin - Paying for finding Balloon - Retry - Duplicate
+			{ new byte[] { 14, 0, 2, 0, 2, 0, 24, 0, 3, 0, 0, 0, 18, 0, 82, 0, 101, 0, 116, 0, 114, 0, 121, 0, 67, 0, 111, 0, 105, 0, 110, 0 },
+						"{Variable_Coin_Paying_FindingBalloon_Retry_Duplicate}" },
 			#endregion
 		};
 		
@@ -301,7 +304,7 @@ namespace SMO_Translation_Helper
 			{
 				foreach (var tagListEntry in tagList)
 				{
-					processedString = processedString.Replace(fileEncoding.GetString(tagListEntry.Key), tagListEntry.Value);
+					processedString = processedString.Replace(tagListEntry.Value, fileEncoding.GetString(tagListEntry.Key));
 				}
 			}
 
