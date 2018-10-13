@@ -8,4 +8,4 @@ Tool for extracting and packing Super Mario Odyssey text files for translation
 |Tool|Authors|Link|
 |--|--|--|
 |MSBT Editor Reloaded|IcySon55, exelix11|https://github.com/IcySon55/3DLandMSBTeditor|
-|Uwizard|Mr. Mysterio and others|https://github.com/MrMysterio/Uwizard|
+|WiiUZip|jam1garner, smb123w64gb|https://github.com/jam1garner/WiiUZip|
