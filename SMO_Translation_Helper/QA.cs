@@ -25,7 +25,7 @@ namespace SMO_Translation_Helper
 			#endregion
 
 			#region CONTROLLER ICONS
-			// Controller Icon
+			// Controller Icon with "Joy-Con" text
 			{ new byte[] { 14, 0, 6, 0, 22, 0, 126, 0, 20, 0, 68, 0, 117, 0, 97, 0, 108, 0, 74, 0, 111, 0, 121, 0, 67, 0, 111, 0, 110, 0, 28, 0, 72, 0, 97, 0, 110, 0, 100, 0, 104, 0, 101, 0, 108, 0, 100, 0, 74, 0, 111, 0, 121, 0, 67, 0, 111, 0, 110, 0, 26, 0, 70, 0, 117, 0, 108, 0, 108, 0, 75, 0, 101, 0, 121, 0, 74, 0, 111, 0, 121, 0, 67, 0, 111, 0, 110, 0, 20, 0, 76, 0, 101, 0, 102, 0, 116, 0, 74, 0, 111, 0, 121, 0, 67, 0, 111, 0, 110, 0, 22, 0, 82, 0, 105, 0, 103, 0, 104, 0, 116, 0, 74, 0, 111, 0, 121, 0, 67, 0, 111, 0, 110, 0 },
 						"{ControllerIcon}" },
 			// Controller Icon - Duplicate
@@ -72,6 +72,9 @@ namespace SMO_Translation_Helper
 			// Capture Button
 			{ new byte[] { 14, 0, 9, 0, 22, 0, 4, 0, 0, 0, 245, 224 },
 						"{Button_Screenshot}" },
+			// Capture Button (Second duplicate icon)
+			{ new byte[] { 14, 0, 9, 0, 15, 0, 4, 0, 0, 0, 236, 224 },
+						"{Button_Screenshot_Duplicate}" },
 			// + Button
 			{ new byte[] { 14, 0, 6, 0, 29, 0, 70, 0, 20, 0, 77, 0, 101, 0, 110, 0, 117, 0, 66, 0, 117, 0, 116, 0, 116, 0, 111, 0, 110, 0, 22, 0, 77, 0, 101, 0, 110, 0, 117, 0, 80, 0, 108, 0, 97, 0, 121, 0, 101, 0, 114, 0, 76, 0, 22, 0, 77, 0, 101, 0, 110, 0, 117, 0, 80, 0, 108, 0, 97, 0, 121, 0, 101, 0, 114, 0, 82, 0 },
 						"{Button_Plus}" },
@@ -153,9 +156,9 @@ namespace SMO_Translation_Helper
 			// Icon - Broodals - Hariet
 			{ new byte[] { 14, 0, 8, 0, 9, 0, 4, 0, 6, 0, 73, 0 },
 						"{Icon_Broodals_Hariet}" },
-			// Icon - The Oddysey (Mario's airship)
+			// Icon - The Odyssey (Mario's airship)
 			{ new byte[] { 14, 0, 8, 0, 10, 0, 4, 0, 6, 0, 74, 0 },
-						"{Icon_TheOddysey}" },
+						"{Icon_TheOdyssey}" },
 			// Icon - Frog
 			{ new byte[] { 14, 0, 8, 0, 11, 0, 4, 0, 6, 0, 75, 0 },
 						"{Icon_Frog}" },
@@ -296,24 +299,60 @@ namespace SMO_Translation_Helper
 			// Tag - End of yellow color
 			{ new byte[] { 14, 0, 0, 0, 3, 0, 2, 0, 255, 255 },
 						"{END_YELLOW_COLOR}" },
+			// Tag - Show a new dialog screen
+			{ new byte[] { 14, 0, 0, 0, 4, 0, 0, 0 },
+						"{SHOW_NEW_DIALOG_SCREEN}" },
+			// Tag - Pause scrolling text for half a second
+			{ new byte[] { 14, 0, 1, 0, 0, 0, 4, 0, 30, 0, 0, 0 },
+						"{PAUSE_SCROLLING_TEXT}" },
+			// Tag - Show following text on a "ribbon"
+			{ new byte[] { 14, 0, 1, 0, 1, 0, 4, 0, 0, 0, 32, 65 },
+						"{SHOW_TEXT_ON_RIBBON}" },
+			// Tag - Show following text as visually "jumping"
+			{ new byte[] { 14, 0, 3, 0, 4, 0, 0, 0 },
+						"{SHOW_JUMPING_TEXT}" },
+			// Tag - Show following text as visually "shaking"
+			{ new byte[] { 14, 0, 4, 0, 0, 0, 22, 0, 20, 0, 82, 0, 101, 0, 115, 0, 117, 0, 108, 0, 116, 0, 82, 0, 111, 0, 108, 0, 108, 0 },
+						"{SHOW_SHAKING_TEXT}" },
 			#endregion
 
 			#region VARIABLES
-			// Variable - Coin - Reward - People searching
+			// Variable - Balloon World - Play count of a balloon you hid
+			{ new byte[] { 14, 0, 2, 0, 0, 0, 24, 0, 6, 0, 0, 0, 18, 0, 80, 0, 108, 0, 97, 0, 121, 0, 67, 0, 111, 0, 117, 0, 110, 0, 116, 0 },
+						"{Variable_BalloonWorld_PlayCountOfBalloon}" },
+			// Variable - Balloon World - Coin - Reward - People searching
 			{ new byte[] { 14, 0, 2, 0, 2, 0, 20, 0, 6, 0, 0, 0, 14, 0, 67, 0, 111, 0, 105, 0, 110, 0, 78, 0, 117, 0, 109, 0 },
-						"{Variable_Coin_Reward_PeopleSearching}" },
-			// Variable - Coin - Reward - After finding Balloon
+						"{Variable_BalloonWorld_Coin_Reward_PeopleSearching}" },
+			// Variable - Balloon World - Coin - Reward - After finding Balloon
 			{ new byte[] { 14, 0, 2, 0, 2, 0, 26, 0, 4, 0, 0, 0, 20, 0, 67, 0, 111, 0, 105, 0, 110, 0, 82, 0, 101, 0, 119, 0, 97, 0, 114, 0, 100, 0 },
-						"{Variable_Coin_Reward_FindingBalloon}" },
-			// Variable - Coin - Paying for finding Balloon
+						"{Variable_BalloonWorld_Coin_Reward_FindingBalloon}" },
+			// Variable - Balloon World - Coin - Paying for finding Balloon
 			{ new byte[] { 14, 0, 2, 0, 2, 0, 28, 0, 3, 0, 0, 0, 22, 0, 67, 0, 111, 0, 105, 0, 110, 0, 80, 0, 97, 0, 121, 0, 70, 0, 105, 0, 110, 0, 100, 0 },
-						"{Variable_Coin_Paying_FindingBalloon}" },
-			// Variable - Coin - Paying for finding Balloon - Retry
+						"{Variable_BalloonWorld_Coin_Paying_FindingBalloon}" },
+			// Variable - Balloon World - Coin - Paying for finding Balloon - Duplicate
+			{ new byte[] { 14, 0, 2, 0, 2, 0, 28, 0, 2, 0, 0, 0, 22, 0, 67, 0, 111, 0, 105, 0, 110, 0, 80, 0, 97, 0, 121, 0, 70, 0, 105, 0, 110, 0, 100, 0 },
+						"{Variable_BalloonWorld_Coin_Paying_FindingBalloon_Duplicate}" },
+			// Variable - Balloon World - Coin - Paying for finding Balloon - Retry
 			{ new byte[] { 14, 0, 2, 0, 2, 0, 38, 0, 3, 0, 0, 0, 32, 0, 67, 0, 111, 0, 105, 0, 110, 0, 80, 0, 97, 0, 121, 0, 70, 0, 105, 0, 110, 0, 100, 0, 82, 0, 101, 0, 116, 0, 114, 0, 121, 0 },
-						"{Variable_Coin_Paying_FindingBalloon_Retry}" },
-			// Variable - Coin - Paying for finding Balloon - Retry - Duplicate
+						"{Variable_BalloonWorld_Coin_Paying_FindingBalloon_Retry}" },
+			// Variable - Balloon World - Coin - Paying for finding Balloon - Retry - Duplicate
 			{ new byte[] { 14, 0, 2, 0, 2, 0, 24, 0, 3, 0, 0, 0, 18, 0, 82, 0, 101, 0, 116, 0, 114, 0, 121, 0, 67, 0, 111, 0, 105, 0, 110, 0 },
-						"{Variable_Coin_Paying_FindingBalloon_Retry_Duplicate}" },
+						"{Variable_BalloonWorld_Coin_Paying_FindingBalloon_Retry_Duplicate}" },
+
+			// Variable - Picture Match - Score - Score to success
+			{ new byte[] { 14, 0, 2, 0, 0, 0, 30, 0, 3, 0, 0, 0, 24, 0, 83, 0, 117, 0, 99, 0, 99, 0, 101, 0, 115, 0, 115, 0, 83, 0, 99, 0, 111, 0, 114, 0, 101, 0 },
+						"{Variable_PictureMatch_ScoreToSuccess}" },
+			// Variable - Picture Match - Score - Achieved score
+			{ new byte[] { 14, 0, 4, 0, 0, 0, 24, 0, 22, 0, 82, 0, 101, 0, 115, 0, 117, 0, 108, 0, 116, 0, 83, 0, 99, 0, 111, 0, 114, 0, 101, 0 },
+						"{Variable_PictureMatch_AchievedScore}" },
+
+
+			// Variable - Score/Moon counter
+			{ new byte[] { 14, 0, 2, 0, 0, 0, 16, 0, 3, 0, 0, 0, 10, 0, 83, 0, 99, 0, 111, 0, 114, 0, 101, 0 },
+						"{Variable_ScoreMoon_Counter}" },
+			// Variable - Moon - Norma (?)
+			{ new byte[] { 14, 0, 2, 0, 0, 0, 16, 0, 3, 0, 0, 0, 10, 0, 78, 0, 111, 0, 114, 0, 109, 0, 97, 0 },
+						"{Variable_Moon_Norma}" },
 
 			// Variable - World Name (Balloon minigame descriptions)
 			{ new byte[] { 14, 0, 5, 0, 2, 0, 12, 0 },
@@ -330,6 +369,19 @@ namespace SMO_Translation_Helper
 			// Variable - Achievement Name
 			{ new byte[] { 14, 0, 5, 0, 9, 0, 32, 0, 30, 0, 65, 0, 99, 0, 104, 0, 105, 0, 101, 0, 118, 0, 101, 0, 109, 0, 101, 0, 110, 0, 116, 0, 78, 0, 97, 0, 109, 0, 101, 0 },
 						"{Variable_Name_Achievement}" },
+
+			// Variable - Amiibo Name - New
+			{ new byte[] { 14, 0, 5, 0, 3, 0, 12, 0, 10, 0, 84, 0, 111, 0, 117, 0, 99, 0, 104, 0 },
+						"{Variable_Name_Amiibo_New}" },
+			// Variable - Amiibo Name - First
+			{ new byte[] { 14, 0, 5, 0, 3, 0, 12, 0, 10, 0, 70, 0, 105, 0, 114, 0, 115, 0, 116, 0 },
+						"{Variable_Name_Amiibo_First}" },
+			// Variable - Amiibo Name - Second
+			{ new byte[] { 14, 0, 5, 0, 3, 0, 14, 0, 12, 0, 83, 0, 101, 0, 99, 0, 111, 0, 110, 0, 100, 0 },
+						"{Variable_Name_Amiibo_Second}" },
+			// Variable - Amiibo Name - Third
+			{ new byte[] { 14, 0, 5, 0, 3, 0, 12, 0, 10, 0, 84, 0, 104, 0, 105, 0, 114, 0, 100, 0 },
+						"{Variable_Name_Amiibo_Third}" },
 			#endregion
 		};
 
@@ -338,9 +390,6 @@ namespace SMO_Translation_Helper
 		private static string ConvertTags(string rawString, bool beforeExport)
 		{
 			string processedString = rawString;
-
-			if (rawString.Contains("DualJoyConR"))
-				System.Diagnostics.Debug.Write("");
 
 			if (beforeExport)
 			{
