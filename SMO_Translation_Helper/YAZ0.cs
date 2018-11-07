@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SMO_Translation_Helper
 {
-	class YAZ0
+	public class YAZ0
 	{
 		public static byte[] Decompress(byte[] data)
 		{

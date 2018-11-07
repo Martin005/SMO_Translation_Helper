@@ -7,7 +7,7 @@ using System.IO;
 
 namespace SMO_Translation_Helper
 {
-	class SARC
+	public class SARC
 	{
 		public Dictionary<string, byte[]> files = new Dictionary<string, byte[]>();
 

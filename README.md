@@ -1,9 +1,6 @@
 # SMO Translation Helper
 Tool for extracting and packing Super Mario Odyssey text files for translation
 
-## Current status
-Data mining the tags, not yet ready for production
-
 ## Screenshot
 ![Alt text](/../master/SMO_Translation_Helper_Screenshot.png?raw=true)
 

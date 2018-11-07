@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SMO_Translation_Helper
 {
-	class FileOutput
+	public class FileOutput
 	{
 		List<byte> data = new List<byte>();
 
